@@ -17,10 +17,29 @@ body {
 
 .modal {
   background: white;
-  width: 480px;
+  max-width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 15px;
 }
+
+.container {
+  display: flex;
+  flex: 1 0;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  display: flex ;
+  flex-direction: row;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 
 .icon {
   color: royalblue;
@@ -54,6 +73,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  margin-left: auto;  
 }
 
 button.continue {
