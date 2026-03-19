@@ -62,7 +62,7 @@ ul{
 
 .footer {
   background-color: rgb(199, 198, 198);
-  display: flexgit status;
+  display: flex;
 }
 
 .left-links,
